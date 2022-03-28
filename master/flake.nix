@@ -11,6 +11,7 @@
   inputs.src-pipe-master.ref   = "refs/heads/master";
   inputs.src-pipe-master.owner = "CosmicToast";
   inputs.src-pipe-master.repo  = "pipe";
+  inputs.src-pipe-master.dir   = "";
   inputs.src-pipe-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
